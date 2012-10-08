@@ -15,4 +15,6 @@ Gem::Specification.new do |gem|
   gem.name          = "slydell"
   gem.require_paths = ["lib"]
   gem.version       = Slydell::VERSION
+
+  gem.add_development_dependency "rake"
 end
